@@ -4,9 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Index</title>
+<title>Login page</title>
 </head>
 <body>
-Hello World!!!
+
+<h1>Login page</h1>
+
+<form action="${pageContext.request.contextPath}/login" method="post">
+
+		Name:<input type="text" name="login"/>		</br>
+	Password:<input type="text" name="password"/>	</br>
+			<input type="submit" value="OK"/>
+
+</form>
+
+
+
 </body>
 </html>
